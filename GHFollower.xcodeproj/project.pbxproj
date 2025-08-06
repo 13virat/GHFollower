@@ -23,6 +23,7 @@
 		0497C95C2E3CA0570039424A /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497C95B2E3CA0570039424A /* Follower.swift */; };
 		0497C95E2E3CA0CE0039424A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497C95D2E3CA0CE0039424A /* User.swift */; };
 		0497C9612E3D5BF30039424A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497C9602E3D5BF30039424A /* NetworkManager.swift */; };
+		0497C9642E3E467D0039424A /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497C9632E3E467D0039424A /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		0497C95B2E3CA0570039424A /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		0497C95D2E3CA0CE0039424A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0497C9602E3D5BF30039424A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0497C9632E3E467D0039424A /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		04318DA02E3A7FB900DEEFDF /* GHFollower */ = {
 			isa = PBXGroup;
 			children = (
+				0497C9622E3E46650039424A /* Utilities */,
 				0497C95F2E3D5BCB0039424A /* Managers */,
 				0497C95A2E3C9FF90039424A /* Model */,
 				0497C9592E3C96860039424A /* Support */,
@@ -143,6 +146,14 @@
 				0497C9602E3D5BF30039424A /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		0497C9622E3E46650039424A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0497C9632E3E467D0039424A /* ErrorMessage.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 				04318DC62E3BF82100DEEFDF /* UIViewController+Ext.swift in Sources */,
 				04318DB62E3AA3DF00DEEFDF /* SearchVC.swift in Sources */,
 				04318DC42E3BC2E700DEEFDF /* GFAlertVC.swift in Sources */,
+				0497C9642E3E467D0039424A /* ErrorMessage.swift in Sources */,
 				04318DC22E3BC05B00DEEFDF /* GFBodyLabel.swift in Sources */,
 				0497C95C2E3CA0570039424A /* Follower.swift in Sources */,
 				04318DC02E3BB6B100DEEFDF /* GFTitleLabel.swift in Sources */,
