@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollower
 //
-//  Created by Mac pro on 02/08/25.
+//  Created by Mac pro on 21/08/25.
 //
 
 import Foundation
