@@ -36,6 +36,8 @@
 		0497C95C2E3CA0570039424A /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497C95B2E3CA0570039424A /* Follower.swift */; };
 		0497C95E2E3CA0CE0039424A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497C95D2E3CA0CE0039424A /* User.swift */; };
 		0497C9612E3D5BF30039424A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497C9602E3D5BF30039424A /* NetworkManager.swift */; };
+		04AEF9D52E5A1B4300964DD6 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEF9D42E5A1B4300964DD6 /* Date+Ext.swift */; };
+		04AEF9D72E5A1B8800964DD6 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEF9D62E5A1B8800964DD6 /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		0497C95B2E3CA0570039424A /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		0497C95D2E3CA0CE0039424A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0497C9602E3D5BF30039424A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		04AEF9D42E5A1B4300964DD6 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		04AEF9D62E5A1B8800964DD6 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				04318DC52E3BF82100DEEFDF /* UIViewController+Ext.swift */,
+				04AEF9D42E5A1B4300964DD6 /* Date+Ext.swift */,
+				04AEF9D62E5A1B8800964DD6 /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -329,6 +335,7 @@
 				0497C95E2E3CA0CE0039424A /* User.swift in Sources */,
 				04318DBC2E3B2FD000DEEFDF /* GFTextField.swift in Sources */,
 				04318DB82E3AA45600DEEFDF /* FavoritesListVC.swift in Sources */,
+				04AEF9D72E5A1B8800964DD6 /* String+Ext.swift in Sources */,
 				04318DBA2E3ABE5D00DEEFDF /* GFButton.swift in Sources */,
 				04318DC62E3BF82100DEEFDF /* UIViewController+Ext.swift in Sources */,
 				04063F952E4606CC0080FC8A /* UIHelper.swift in Sources */,
@@ -345,6 +352,7 @@
 				04954C4A2E5672D6003DDE3E /* GFError.swift in Sources */,
 				0497C95C2E3CA0570039424A /* Follower.swift in Sources */,
 				04318DC02E3BB6B100DEEFDF /* GFTitleLabel.swift in Sources */,
+				04AEF9D52E5A1B4300964DD6 /* Date+Ext.swift in Sources */,
 				04954C4E2E57977B003DDE3E /* GFSecondaryTitleLabel.swift in Sources */,
 				0414D6902E5532090035A5A4 /* GFEmptyStateView.swift in Sources */,
 				0497C9612E3D5BF30039424A /* NetworkManager.swift in Sources */,
