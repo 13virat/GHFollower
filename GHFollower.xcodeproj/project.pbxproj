@@ -38,6 +38,7 @@
 		0497C9612E3D5BF30039424A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497C9602E3D5BF30039424A /* NetworkManager.swift */; };
 		04AEF9D52E5A1B4300964DD6 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEF9D42E5A1B4300964DD6 /* Date+Ext.swift */; };
 		04AEF9D72E5A1B8800964DD6 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEF9D62E5A1B8800964DD6 /* String+Ext.swift */; };
+		04AEF9D92E5B0C1500964DD6 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEF9D82E5B0C1500964DD6 /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		0497C9602E3D5BF30039424A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		04AEF9D42E5A1B4300964DD6 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		04AEF9D62E5A1B8800964DD6 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		04AEF9D82E5B0C1500964DD6 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				0497C9602E3D5BF30039424A /* NetworkManager.swift */,
+				04AEF9D82E5B0C1500964DD6 /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				0497C95C2E3CA0570039424A /* Follower.swift in Sources */,
 				04318DC02E3BB6B100DEEFDF /* GFTitleLabel.swift in Sources */,
 				04AEF9D52E5A1B4300964DD6 /* Date+Ext.swift in Sources */,
+				04AEF9D92E5B0C1500964DD6 /* PersistenceManager.swift in Sources */,
 				04954C4E2E57977B003DDE3E /* GFSecondaryTitleLabel.swift in Sources */,
 				0414D6902E5532090035A5A4 /* GFEmptyStateView.swift in Sources */,
 				0497C9612E3D5BF30039424A /* NetworkManager.swift in Sources */,
