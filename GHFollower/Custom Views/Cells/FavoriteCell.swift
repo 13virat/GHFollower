@@ -27,6 +27,7 @@ class FavoriteCell: UITableViewCell {
         avatarImageView.downloadImage(from: favorite.avatarUrl)
     }
     
+    
     private func configure(){
         addSubview(avatarImageView)
         addSubview(usernameLabel)
