@@ -40,6 +40,11 @@
 		04AEF9D72E5A1B8800964DD6 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEF9D62E5A1B8800964DD6 /* String+Ext.swift */; };
 		04AEF9D92E5B0C1500964DD6 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AEF9D82E5B0C1500964DD6 /* PersistenceManager.swift */; };
 		04B4AE622E5BB31D003F8029 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4AE612E5BB31D003F8029 /* FavoriteCell.swift */; };
+		04B4AE6A2E5C7C01003F8029 /* Simulator Screen Shot - iPhone 14 Pro - 2025-08-25 at 16.29.47.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B4AE652E5C7C00003F8029 /* Simulator Screen Shot - iPhone 14 Pro - 2025-08-25 at 16.29.47.png */; };
+		04B4AE6B2E5C7C01003F8029 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B4AE662E5C7C00003F8029 /* search.png */; };
+		04B4AE6C2E5C7C01003F8029 /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04B4AE672E5C7C00003F8029 /* demo.mp4 */; };
+		04B4AE6D2E5C7C01003F8029 /* followers.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B4AE682E5C7C01003F8029 /* followers.png */; };
+		04B4AE6E2E5C7C01003F8029 /* favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B4AE692E5C7C01003F8029 /* favorites.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +83,15 @@
 		04AEF9D62E5A1B8800964DD6 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		04AEF9D82E5B0C1500964DD6 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		04B4AE612E5BB31D003F8029 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		04B4AE652E5C7C00003F8029 /* Simulator Screen Shot - iPhone 14 Pro - 2025-08-25 at 16.29.47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Simulator Screen Shot - iPhone 14 Pro - 2025-08-25 at 16.29.47.png"; path = "../../../../Simulator Screen Shot - iPhone 14 Pro - 2025-08-25 at 16.29.47.png"; sourceTree = "<group>"; };
+		04B4AE662E5C7C00003F8029 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = ../../../../search.png; sourceTree = "<group>"; };
+		04B4AE672E5C7C00003F8029 /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.mp4; path = ../../../../demo.mp4; sourceTree = "<group>"; };
+		04B4AE682E5C7C01003F8029 /* followers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = followers.png; path = ../../../../followers.png; sourceTree = "<group>"; };
+		04B4AE692E5C7C01003F8029 /* favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorites.png; path = ../../../../favorites.png; sourceTree = "<group>"; };
+		04B4AE702E5C7C1A003F8029 /* favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorites.png; sourceTree = "<group>"; };
+		04B4AE712E5C7C1A003F8029 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		04B4AE722E5C7C1A003F8029 /* followers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = followers.png; sourceTree = "<group>"; };
+		04B4AE732E5C7C1A003F8029 /* Simulator Screen Shot - iPhone 14 Pro - 2025-08-25 at 16.29.47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 14 Pro - 2025-08-25 at 16.29.47.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +170,7 @@
 		04318D952E3A7FB900DEEFDF = {
 			isa = PBXGroup;
 			children = (
+				04B4AE642E5C7B51003F8029 /* Assets */,
 				04318DA02E3A7FB900DEEFDF /* GHFollower */,
 				04318D9F2E3A7FB900DEEFDF /* Products */,
 			);
@@ -268,6 +283,30 @@
 			path = ItemInfoVCs;
 			sourceTree = "<group>";
 		};
+		04B4AE642E5C7B51003F8029 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				04B4AE6F2E5C7C10003F8029 /* screenshots */,
+				04B4AE672E5C7C00003F8029 /* demo.mp4 */,
+				04B4AE692E5C7C01003F8029 /* favorites.png */,
+				04B4AE682E5C7C01003F8029 /* followers.png */,
+				04B4AE662E5C7C00003F8029 /* search.png */,
+				04B4AE652E5C7C00003F8029 /* Simulator Screen Shot - iPhone 14 Pro - 2025-08-25 at 16.29.47.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		04B4AE6F2E5C7C10003F8029 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				04B4AE702E5C7C1A003F8029 /* favorites.png */,
+				04B4AE722E5C7C1A003F8029 /* followers.png */,
+				04B4AE712E5C7C1A003F8029 /* search.png */,
+				04B4AE732E5C7C1A003F8029 /* Simulator Screen Shot - iPhone 14 Pro - 2025-08-25 at 16.29.47.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -326,8 +365,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B4AE6A2E5C7C01003F8029 /* Simulator Screen Shot - iPhone 14 Pro - 2025-08-25 at 16.29.47.png in Resources */,
 				04318DAE2E3A7FBA00DEEFDF /* LaunchScreen.storyboard in Resources */,
 				04318DAB2E3A7FBA00DEEFDF /* Assets.xcassets in Resources */,
+				04B4AE6D2E5C7C01003F8029 /* followers.png in Resources */,
+				04B4AE6C2E5C7C01003F8029 /* demo.mp4 in Resources */,
+				04B4AE6B2E5C7C01003F8029 /* search.png in Resources */,
+				04B4AE6E2E5C7C01003F8029 /* favorites.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
